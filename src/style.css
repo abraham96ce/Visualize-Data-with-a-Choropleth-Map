@@ -1,0 +1,46 @@
+#title {
+  text-align: center;
+  font-size: 48px;
+  margin: 20px 0 10px;
+}
+
+#description {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.map-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.tooltip {
+  position: absolute;
+  pointer-events: none;
+  background-color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 10;
+}
+
+.county {
+  stroke: #fff;
+  stroke-width: 0.5;
+}
+
+#legend {
+  font-family: sans-serif;
+}
+
+#legend rect {
+  stroke: black;
+}
+
+#legend text {
+  fill: #000;
+}
