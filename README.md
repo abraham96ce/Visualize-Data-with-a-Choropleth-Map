@@ -40,13 +40,3 @@ Función principal que dibuja el mapa:
 - 📚 **Leyenda:** 
   - Rango de colores con etiquetas descriptivas en porcentaje.
 
-## 📊 Ejemplo Visual
-
-![Choropleth Map Demo](https://user-images.githubusercontent.com/placeholder/demo.png)
-
-> ⚠️ Reemplaza la imagen con una captura de tu propia implementación.
-
-## 🛠️ Instalación
-
-```bash
-npm install d3 topojson-client
